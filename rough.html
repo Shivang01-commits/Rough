@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .main{
+       display: grid;
+       grid-template-columns: 200px 200px 200px;
+       column-gap: 10px;
+       align-items:center;
+      }
+
+      .d1 {
+        width: 100%;
+        border: solid;
+        border-width: 1px;
+      }
+      img {
+        width: 100%;
+      }
+      p {
+        margin-left: 3px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .name {
+        margin-top: 2px;
+        margin-bottom: 2px;
+      }
+      .friend {
+        margin-bottom: 20px;
+      }
+      button {
+        background-color: rgb(18, 106, 238);
+        color: white;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        margin-left: 3px;
+        border: none;
+        font-weight: bold;
+        border-radius: 10px;
+      }
+      }
+      .flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 40px;
+        border-color: gray;
+        border: solid;
+      }
+      .Cats{
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        margin-top: 50px;
+        row-gap: 20px;
+      }
+      .one{
+        
+        display: grid;
+        column-gap: 5px;
+        grid-template-columns: 50px 100px 100px;
+      
+      }
+      .two{
+        display: grid;
+        grid-template-columns: 50px 100px 100px;
+        column-gap: 5px;
+      }.three{
+        display: grid;
+        grid-template-columns: 50px 100px 100px;
+        column-gap: 5px;
+      }
+      .button{
+        margin-top: 15px;
+        border: none;
+        font-weight: bold;
+        border-radius: 20px;
+      }
+
+      .bar{
+        display: flex;
+        flex-direction: row;
+        max-width: 500px;
+        justify-content: space-between;
+        background-color: rgb(111, 27, 128);
+        height: 50px;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      p{
+        color: white;
+        font-weight: bold;
+        margin-left: 10px;
+      }
+      .Down{
+        background-color: rgb(111, 27, 128);
+        border: solid;
+        border-width: 1px;
+        border-color: white;
+        border-radius: 0px;
+        margin-right: 10px;
+      }
+      .Twitter{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+      }
+      .Dp{
+        height: 50px;
+        width: 50px;
+        border-radius: 25px;
+      }
+      .content{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+      }
+      .box{
+        display: flex;
+        border: solid;
+        border-width: 1px;
+        border-color: gray;
+        border-radius: 20px;
+        overflow: hidden;
+    
+      }
+      .innner{
+       display: flex;
+       flex-direction: column;
+      }
+    </style>
+  </head>
+
+  <body>
+  <div class="main">
+
+    <div class="d1">
+      <img src="download.jpeg"
+      <p class="name">Oliver</p>
+      <p class="friend">2 mutual friends</p>
+      <button>Add friends</button>
+    </div>
+
+    <div class="d1">
+      <img src="download.jpeg"
+      <p class="name">Oliver</p>
+      <p class="friend">2 mutual friends</p>
+      <button>Add friends</button>
+    
+    </div> 
+
+    <div class="d1">
+      <img src="download.jpeg"
+      <p class="name">Oliver</p>
+      <p class="friend">2 mutual friends</p>
+      <button>Add friends</button>
+    </div>
+
+  </div>
+
+  <div class="flex">
+    <div>item1</div>
+    <div>item2</div>
+  </div>
+
+  <div class="Cats">
+
+    <div class="one">
+      <div class="pic">
+        <img style="border-radius:25px;height: 50px;object-fit: cover;" src="download.jpeg">
+      </div>
+      <div class="data">
+        <p style="font-weight: bold;">
+          oliver
+        </p>
+        <p style="color: gray;">
+          the cat
+        </p>
+        <p style="color: gray;">
+          popular
+        </p>
+      </div>
+      <div class="button">
+        <button>
+          Follow
+        </button>
+      </div>
+    </div>
+
+    <div class="two">
+      <div class="pic">
+        <img style="border-radius:25px;height: 50px;object-fit: cover;" src="download.jpeg">
+      </div>
+      <div class="data">
+        <p style="font-weight: bold;">
+          oliver
+        </p>
+        <p style="color: gray;">
+          the cat
+        </p>
+        <p style="color: gray;">
+          popular
+        </p>
+      </div>
+      <div class="button">
+        <button>
+          Follow
+        </button>
+      </div>
+    </div>
+
+    <div class="three">
+      <div class="pic">
+        <img style="border-radius:25px;object-fit: cover;height: 50px;" src="download.jpeg">
+      </div>
+      <div class="data">
+        <p style="font-weight: bold;">
+          oliver
+        </p>
+        <p style="color: gray;">
+          the cat
+        </p>
+        <p style="color: gray;">
+          popular
+        </p>
+      </div>
+      <div class="button">
+        <button>
+          Follow
+        </button>
+      </div>
+
+    </div>
+    
+  </div>
+
+
+  <div class="bar"> 
+    <div>
+      <p>Home</p>
+    </div>
+    <div>
+      <input style="width:250px ;height:20px;border-radius:10px;border: none;"; type="text" placeholder="Search">
+    </div>
+    <div>
+      <button class="Down">Download</button>
+    </div>
+
+  </div>
+
+
+  <div class="Twitter">
+     <img class="Dp" src="Project/thumbnails/channel-4.jpeg">
+
+     <div class="content">
+      <p style="color:black;">supersimple.dev @SuperSimpleDev</p>
+      <p   style="color:black;">
+        What is backend web development? A complete overview.
+        New Video is up
+      </p>
+      <div class="box">
+          <div style="width: 50px;background-color: gray;;"></div>
+          <div class="innner">
+           <p style="color:black;">youtube.com</p>
+          <p style="color:black;width: 200px;">Backend web development- a complete overview (2021)</p>
+          </div>
+          
+      </div>
+     </div>
+  </div>
+ </body>
+</html>
